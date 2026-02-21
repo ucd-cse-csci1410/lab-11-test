@@ -16,7 +16,7 @@ import os
 from unittest.mock import patch
 
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from src.main import place_entry
 
 # def place_entry (grid, row, col, ch):
